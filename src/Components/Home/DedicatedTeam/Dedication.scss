@@ -1,0 +1,32 @@
+.cardSection{
+    box-shadow: 1px 1px 10px lightgrey;
+    .header{
+        font-weight: bold;
+    }
+    .card-text{
+        font-size:1.1rem;
+        font-weight:600 ;
+    }
+
+    }
+    
+.cardSection:hover{
+border:3px solid rgb(53, 230, 230);
+box-shadow: 1px 1px 10px lightgrey;
+font-weight:700 ;
+ 
+button{
+    border-top-left-radius: 27px;
+    border-bottom-right-radius: 30px;
+    border:none;
+    width: 9rem;
+    height: 3rem;
+    background-image: linear-gradient(to right, rgb(107, 228, 137),cyan, );
+    display: block;
+    margin:auto;
+}
+
+}
+.btnAchievement{
+    display: none;
+}
