@@ -1,29 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import Home from './Components/Home/Home/Home';
-
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Home from "./Components/Home/Home/Home";
 
 function App() {
   return (
-    <Router> 
+    <Router>
       <Switch>
         <Route path="/home">
-<Home></Home>
+          <Home></Home>
         </Route>
         <Route path="/">
-<Home></Home>
+          <Home></Home>
         </Route>
         <Route path="/">
-<Home></Home>
+          <Home></Home>
         </Route>
         <Route path="/">
-<Home></Home>
+          <Home></Home>
         </Route>
       </Switch>
     </Router>
