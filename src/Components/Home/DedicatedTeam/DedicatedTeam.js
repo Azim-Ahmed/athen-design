@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-    Container, Row, Col, Card, CardText, CardBody, CardLink,
-    CardTitle, CardSubtitle, Button
+    Container, Row, Col, Card, CardText, CardBody,
+    CardTitle, CardSubtitle,
 } from 'reactstrap';
 import './Dedication.scss'
 
@@ -55,7 +55,7 @@ const DedicatedTeam = () => {
                 {
                     teamData.map(item =>
 
-                        <Col className="text-center my-4" md={6} lg={4} sm={12} xs={12}>
+                        <Col className="text-center my-4" md={4} lg={4} sm={12} xs={12}>
                             <Card className="cardSection">
                                 <CardBody>
                                     <CardTitle className="header mb-4" tag="h2">${item.price}</CardTitle>

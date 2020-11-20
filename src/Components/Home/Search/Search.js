@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container } from 'reactstrap';
+import { Container } from 'reactstrap';
 
 const Search = () => {
     return (
@@ -10,8 +10,8 @@ const Search = () => {
 </small></p>
            </div>
            <div className="text-center searchAra">
-               <input className="inputsearch" type="text"/>
-               <button className="btnSearch">Get Started</button>
+               <input placeholder="  Enter your Email" required className=" inputsearch" type="text"/>
+               <button type="submit" className="btnSearch">Get Started</button>
            </div>
         </Container>
     );

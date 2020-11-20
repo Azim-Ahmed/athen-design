@@ -1,19 +1,33 @@
 .runningProjectHeader{
-    font-family: 'Lobster', cursive;
+    font-family: 'Abril Fatface', cursive;
     font-size: 2.2rem;
-    font-weight: bold;
+    // font-weight: bold;
+}
+p{
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
 }
 .btnSearch{
-    border:none;
-    background-image: linear-gradient(to right, rgb(107, 228, 137),cyan, );  
+    border:none;  
+    background: linear-gradient(
+to left,
+#2af598 0%,
+#009efd 100%,
+#000 100%
+) !important;
     margin-left: -6.2rem;
     height: 2rem;
+    color: white;
 }
 
 .inputsearch{
-    width: 25rem;
+    width:30rem;
     border:none;
-    height: 2.5rem;
+    height: 3rem;
     padding-right: 50px;
     box-shadow: 2px 2px 20px lightgrey;
+    @media (max-width: 575.98px) { 
+        width: 100% !important;
+    }
 }
+

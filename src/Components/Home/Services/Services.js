@@ -45,14 +45,14 @@ const Services = () => {
 simple  <br /> and easy. Simplicity is our Strength</p>
                 </div>
 
-                <Row className="text-center">
+                <Row className="text-center ServicesBackground">
                     {
                         servicesData.map(service =>
-                            <Col className=" py-3" xl={3} md={4} lg={3} sm={12} xs={12}>
+                            <Col className=" py-3" xl={3} md={3} lg={3} sm={12} xs={12}>
                                 <div className="serviceCard p-2">
-                                <img src={service.photo} className="w-5 p-3" alt="" />
-                                <h6>{service.title}</h6>
-                                <p><small>{service.description}</small></p>
+                                    <img src={service.photo} className="w-5 p-3" alt="" />
+                                    <h6>{service.title}</h6>
+                                    <p><small>{service.description}</small></p>
                                 </div>
                             </Col>
                         )}

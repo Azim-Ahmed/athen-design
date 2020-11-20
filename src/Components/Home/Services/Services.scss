@@ -9,4 +9,14 @@ border-bottom-right-radius: 40px;
 background-color:rgb(255, 255, 255);
 box-shadow: 1px 1px 8px lightgray;
 }
+.ServicesBackground{
+    background: url('../../../Assests/Illustration/Path\ 74.png') no-repeat center left;
+}
+
+.combinedBackground{
+    background: url('../../../Assests/Illustration/Group\ 57.png') no-repeat top -200px right -800px;
+    z-index: infinite;
+    background-size: cover auto;
+}
+
 

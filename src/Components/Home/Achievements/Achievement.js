@@ -39,45 +39,45 @@ const Achievement = () => {
     ]
     return (
         <div className="achievementsection  py-5">
-        <Container>
-          
-            <Row>
-                <Col md={4} lg={4} sm={12} xs={12}>
-                    <div>
-                        <h1 className="runningProjectHeader">Our Achievements</h1>
-                        <p><small>It is a long established fact that a reader will be distracted by
-                        the readable content of a page when looking at its layout. The
-                        point of using Lorem Ipsum is that it has a more-or-less normal
+            <Container>
+
+                <Row>
+                    <Col md={4} lg={4} sm={12} xs={12}>
+                        <div>
+                            <h1 className="runningProjectHeader">Our Achievements</h1>
+                            <p><small>It is a long established fact that a reader will be distracted by
+                            the readable content of a page when looking at its layout. The
+                            point of using Lorem Ipsum is that it has a more-or-less normal
 distribution of letter</small></p>
-                    </div>
+                        </div>
 
-                </Col>
-                <Col md={8} lg={8} sm={12} xs={12}>
+                    </Col>
+                    <Col md={8} lg={8} sm={12} xs={12}>
 
-                    <Row className="text-center">
-                        {
-                            achievementData.map(item =>
+                        <Row className="text-center">
+                            {
+                                achievementData.map(item =>
 
 
-                                <Col md={5} lg={5} sm={12} xs={12}>
+                                    <Col md={6} lg={{size:5, offset:1}}  sm={12} xs={12}>
 
-                                    <div className="cardArea d-flex justify-content-around mb-4 d-flex  align-items-center">
-                                        <img src={item.photo} className="pl-2 ml-2 img-fluid" style={{height:"50px"}} alt="" />
+                                        <div className="cardArea d-flex justify-content-around mb-4 d-flex  align-items-center">
+                                            <img src={item.photo} className="pl-2 ml-2 img-fluid" style={{ height: "50px" }} alt="" />
 
-                                        <div className="pr-2 py-3 mr-2">
-                                            <h2>{item.title}</h2>
-                                            <p>{item.description}</p>
+                                            <div className="pr-2 py-3 mr-2">
+                                                <h2>{item.title}</h2>
+                                                <p>{item.description}</p>
+                                            </div>
                                         </div>
-                                    </div>
 
-                                </Col>
+                                    </Col>
 
-                            )
-                        }
-                    </Row>
-                </Col>
-            </Row>
-        </Container>
+                                )
+                            }
+                        </Row>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     );
 };

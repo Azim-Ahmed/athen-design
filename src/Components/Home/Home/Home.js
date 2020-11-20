@@ -11,9 +11,12 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
+            <div className="combinedBackground">
             <Services></Services>
             <RunningP></RunningP>
             <Achievement></Achievement>
+            </div>
+            
             <DedicatedTeam></DedicatedTeam>
             <Search></Search>
             <Footer></Footer>
