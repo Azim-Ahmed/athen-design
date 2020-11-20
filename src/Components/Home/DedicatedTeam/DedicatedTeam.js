@@ -50,7 +50,7 @@ const DedicatedTeam = () => {
         <div className="serviceBackground">
         <Container className="mt-5">
             
-            <h1 className="runningProjectHeader text-center my-3">Choose Your Dedicated Team</h1>
+            <h1 className="runningProjectHeader text-center py-3 my-3">Choose Your Dedicated Team</h1>
             <Row>
                 {
                     teamData.map(item =>
