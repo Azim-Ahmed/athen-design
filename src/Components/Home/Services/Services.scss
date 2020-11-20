@@ -12,7 +12,10 @@ box-shadow: 1px 1px 8px lightgray;
 .ServicesBackground{
     background: url('../../../Assests/Illustration/Path\ 74.png') no-repeat center left;
 }
-
+.serviceBackground, .achievementsection{
+    background-attachment: fixed;
+    background: url('../../../Assests/Illustration/Path\ 74.png') no-repeat left center ;
+}
 .combinedBackground{
     background: url('../../../Assests/Illustration/Group\ 57.png') no-repeat top -200px right -800px;
     z-index: infinite;

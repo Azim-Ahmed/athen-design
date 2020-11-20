@@ -56,7 +56,7 @@ const DedicatedTeam = () => {
                     teamData.map(item =>
 
                         <Col className="text-center my-4" md={4} lg={4} sm={12} xs={12}>
-                            <Card className="cardSection">
+                            <Card className="cardSection py-4">
                                 <CardBody>
                                     <CardTitle className="header mb-4" tag="h2">${item.price}</CardTitle>
                                     <CardSubtitle tag="h6" className="my-3 subtitleBorder">{item.title}</CardSubtitle>
